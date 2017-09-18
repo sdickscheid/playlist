@@ -1,0 +1,141 @@
+/* Q1 - Final Assessment CSS --- Index Page */
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#header-id {
+  background-color: #9b9b8d;
+  border-bottom: 1px solid black;
+  height: 60px;
+}
+
+
+.wrapper {
+}
+
+.row {
+  margin: 0px !important;
+}
+
+/* SPLASH LEFT ============================= */
+
+#left-outer {
+  border: 0px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#left-inner-top {
+  border: 0px solid black;
+  height: 275px;
+  width: 95%;
+  margin: 12px auto 7px auto;
+
+}
+
+#left-inner-middle {
+  border: 0px solid black;
+  height: 275px;
+  width: 95%;
+  margin: 12px auto 7px auto;
+
+}
+
+#left-inner-bottom {
+  border: 0px solid black;
+  height: 275px;
+  width: 95%;
+  margin: 12px auto 7px auto;
+
+}
+
+h1 {
+  color: #490b62;
+  font-family: avenir;
+  text-align: center;
+}
+
+#button-wrapper{
+  text-align: center;
+  /*border: 1px solid black;*/
+  margin: 0px auto;
+}
+
+#btn-choose-tracks {
+  background-color: black;
+  font-family: avenir;
+  width: 37%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#btn-text {
+  color: white;
+}
+/* ^^^ END SPLASH LEFT*/
+
+
+/* SPLASH RIGHT ============================= */
+
+#right-outer {
+  min-height: 100%;
+  border: 0px solid black;
+  background-image: url("../images/fadedTrackCropped2.jpg");
+  background-size: cover;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*#rr-tracks {
+  background-image: cover;
+}*/
+
+#right-inner-top {
+  border: 0px solid black;
+  height: 275px;
+  width: 40%;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-bottom: 7px;
+  margin-left: 30%;
+}
+
+#right-inner-middle {
+  border: 0px solid black;
+  /*margin-top: 5px;*/
+  height: 275px;
+  width: 40%;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-bottom: 7px;
+  margin-left: 30%;
+}
+
+#right-inner-bottom {
+  border: 0px solid black;
+  height: 275px;
+  width: 40%;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-bottom: 7px;
+  margin-left: 30%;
+}
+
+/* ^^^END SPLASH RIGHT*/
+
+#footer-id {
+  background-color: #68685a;
+  color: white;
+  border-top: 1px solid black;
+  height: 60px;
+
+}
+
+#legal-line {
+  color: white;
+  font-size: 28px;
+  font-family: avenir;
+  margin: 10px 0 0 50px;
+}

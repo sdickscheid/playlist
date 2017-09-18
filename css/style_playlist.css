@@ -1,0 +1,116 @@
+/* Q1 - Final Assessment CSS --- Playlist Page */
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  margin: 0px !important;
+}
+
+
+#header-id {
+  background-color: #9b9b8d;
+  border-bottom: 1px solid black;
+  height: 125px;
+  position: relative;
+}
+
+#header-line {
+  font-family: avenir;
+  font-size: 30px;
+  margin-left: 35px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+#album-gallery {
+  border: 0px solid blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 150px;
+  overflow-x: scroll;
+}
+
+#album-gallery-art {
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 125px;
+  margin: 0px 35px 0px 35px;
+}
+
+
+#album-details-container {
+  border: 0px solid blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 250px;
+}
+
+#album-details {
+  border: 2px solid black;
+  margin: 20px 35px 10px 35px;
+  height: 200px;
+  background-color: white;
+}
+
+#clear-submit-btns-container {
+  border: 0px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 200px;
+  background-color: white;
+}
+
+/* ******* BUTTONS ******** */
+
+#button-wrapper{
+  border: 0px solid white;
+  text-align: center;
+  /*border: 1px solid black;*/
+  margin-left: 35px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#btn-clear-tracks {
+  background-color: black;
+  font-family: avenir;
+  width: 45%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+#btn-submit-bin {
+  background-color: black;
+  font-family: avenir;
+  width: 45%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+#btn-text {
+  color: white;
+}
+
+#footer-id {
+  background-color: #68685a;
+  color: white;
+  border-top: 1px solid black;
+  height: 55px;
+}
+
+#legal-line {
+  color: white;
+  font-size: 28px;
+  font-family: avenir;
+  margin: 10px 0 0 50px;
+  font-weight: 100;
+}
